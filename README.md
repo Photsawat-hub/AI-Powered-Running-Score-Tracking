@@ -2,7 +2,7 @@
 # **"Google Cloud Vision API"**
 
 **Why this exists**  
-Sports Day results come as **photos** — scoreboards and watch/treadmill screens. Typing them into a sheet is slow and easy to get wrong. We use **Google Cloud Vision** to read the text, simple rules to pick out **time** and **distance**, and send the results to **Google Sheets** each day. Every number can be checked with its original photo. Read the main story for what we did; details and code are at the end. 
+Running results come as **photos** — scoreboards and watch/treadmill screens. Typing them into a sheet is slow and easy to get wrong. We use **Google Cloud Vision** to read the text, simple rules to pick out **time** and **distance**, and send the results to **Google Sheets** each day. Every number can be checked with its original photo. Read the main story for what we did; details and code are at the end. 
 
 ![Running watch screen](image/running_watch.png "Watch sample")
 
@@ -20,7 +20,7 @@ Sports Day results come as **photos** — scoreboards and watch/treadmill screen
 
 ## 1) Project Overview 
 **- Problem -**  
-In Sports Day’s running events, participants record their own results and submit a captured image via Google Form so the judges can aggregate and analyze the results. However, there are about **700 participants**, and the competition runs **every day for one week**. New images keep coming in across all 7 days, creating a huge volume to review. Doing this purely by people may be overwhelming and can lead to mistakes.
+In running events, participants record their own results and submit a captured image via Google Form so the judges can aggregate and analyze the results. However, there are about **700 participants**, and the competition runs **every day for one week**. New images keep coming in across all 7 days, creating a huge volume to review. Doing this purely by people may be overwhelming and can lead to mistakes.
 
 ![Tired](image/Tired.jpg "Tried")
 
@@ -344,8 +344,6 @@ We process three photo contexts:
 ## 6) Authur
 
 - Photsawat B.
-- Company Email : photsawat.buan@kkpfg.com
-
 - Personal Email : photsawat.phu@gmail.com
 - Linkedin : Photsawat Buanuam
 - IG : pht_7oi_i
